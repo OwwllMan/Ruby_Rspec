@@ -21,6 +21,6 @@ def first_word(message,nb=0)
 	split_string[nb]
 end 
 
-def titleize(message)
-	message.split().map(&:capitalize).join(" ") 
-end 
+def titleize(chain)
+ chain.capitalize.split(" ").map { |word| ["and", "or", "the", "to", "an", "a", "but"].include?(word) ? word : word.capitalize }.join(" ")
+end

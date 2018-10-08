@@ -1,5 +1,5 @@
 def who_is_bigger(a, b, c)
-  if a == nil || b == nil || c == nil
+  if a == nil || b == nil || c == nil#Simple condition avec des paramètres
 		return "nil detected"
 	else
     if (a > b) && (a > c)
@@ -13,11 +13,11 @@ def who_is_bigger(a, b, c)
 end
 
 def reverse_upcase_noLTA(text)
-	text.reverse.upcase.gsub!(/[LTA]/,'')
+	text.reverse.upcase.gsub!(/[LTA]/,'')#Ici chaque string va être reverse puis mit en maj et on va replace les lettres "LTA" par rien : ""
 end
 
 def array_42(array)
-	array.include?(42)
+	array.include?(42)#Va interroger un array pour savoir si il contient ou non le nombre 42
 end
 
 def magic_array(array)

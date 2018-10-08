@@ -1,20 +1,20 @@
 def translate(s)
     s = s.downcase
-    vowels = ['a', 'e', 'i', 'o', 'u']
+    voyelle = ['a', 'e', 'i', 'o', 'u']
     words = s.split(' ')
     result = []
 
 words.each_with_index do |word, i|
     translation = ''
     qu = false
-    if vowels.include? word[0]
+    if voyelle.include? word[0]
         translation = word + 'ay'
         result.push(translation)
     else
         word = word.split('')
         count = 0
         word.each_with_index do |char, index|
-            if vowels.include? char
+            if voyelle.include? char
                 if char == 'u' and translation[-1] == 'q'
                     qu = true
                     translation = words[i][count + 1..words[i].length] + translation + 'uay'
