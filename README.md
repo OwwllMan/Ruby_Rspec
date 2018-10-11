@@ -1,10 +1,24 @@
-# Ruby_Rspec
+The Hacking Project -
+🔍 The content
 
+In these exercises, I had to do write some code and test :
 
-The Hacking Project - Test Driven Development
+    
 
-See more here : https://github.com/felhix/learn_ruby_rspec
+After cloning the repository, make sure to do :
 
+$ cd Ruby_Rspec
+$ bundle install
+
+This will install all the dependencies needed for the exercises.
+💎 Gems
+
+gem 'rake', '< 11.0' <br>
+gem 'rspec', '~> 3.4'
 🏤 The Strasbourgeois Crew
 
-Projet réalisé à Strasbourg avec @BrokenPirate , Ainsi que @mxrch, et moi même @OwwllMan 
+Done with @zOmegad, @BrokenPirate, @mxrch, and myselft @OwwllMan
+
+It's an exercise from the TheHackingProject bootcamp.
+
+> www.thehackingproject.org
