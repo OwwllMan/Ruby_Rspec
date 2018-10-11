@@ -18,7 +18,7 @@ gem 'rake', '< 11.0' <br>
 gem 'rspec', '~> 3.4'
 
 ## :european_post_office: The Strasbourg Crew 💪
-Done with @zOmegad, @BrokenPirate, @mxrch, and myselft @OwwllMan
+Done with @zOmegad, @BrokenPirate, @mxrch, and myself @OwwllMan
 
 <hr>
 
