@@ -17,7 +17,7 @@ This will install all the dependencies needed for the exercises.
 gem 'rake', '< 11.0' <br>
 gem 'rspec', '~> 3.4'
 
-## :european_post_office: The Strasbourg Crew
+## :european_post_office: The Strasbourg Crew 💪
 Done with @zOmegad, @BrokenPirate, @mxrch, and myselft @OwwllMan
 
 <hr>
